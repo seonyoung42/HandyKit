@@ -1,0 +1,6 @@
+framework module HandyKit {
+  umbrella header "HandyKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
