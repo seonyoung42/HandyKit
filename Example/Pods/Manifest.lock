@@ -1,15 +1,22 @@
 PODS:
-  - HandyKit (0.1.0)
+  - HandyKit (0.1.0):
+    - SnapKit (= 5.0.0)
+  - SnapKit (5.0.0)
 
 DEPENDENCIES:
   - HandyKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   HandyKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HandyKit: 135798d7f4e9f183a68c10ca66a44f9e94127403
+  HandyKit: d01861b8f6c12bd5c6136f0b6a7894a546137106
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
 
 PODFILE CHECKSUM: fba3e9befe4c38a9271b7968a11febec86156e62
 

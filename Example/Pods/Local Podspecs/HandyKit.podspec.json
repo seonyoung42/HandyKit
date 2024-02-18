@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "HandyKit/**/*"
+  "source_files": "HandyKit/**/*",
+  "dependencies": {
+    "SnapKit": [
+      "5.0.0"
+    ]
+  }
 }
