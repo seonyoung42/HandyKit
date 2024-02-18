@@ -7,12 +7,25 @@
 //
 
 import UIKit
+import HandyKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = .yellow
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let label = HandyKitLabel(text: "handyKit", textColor: .black, font: .boldSystemFont(ofSize: 20.0))
+        label.textAlignment = .center
+        self.showToast(label: label,
+                       height: 50.0,
+                       backgroundColor: .black.withAlphaComponent(0.3),
+                       duration: 1.0)
     }
 
     override func didReceiveMemoryWarning() {
