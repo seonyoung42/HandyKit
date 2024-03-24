@@ -20,6 +20,7 @@
 		278C8E8F98AB819824C4613E44B77487 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D6B4E640B3D09C454814F36856E2EE /* ConstraintLayoutSupport.swift */; };
 		27A0202C956957F619DBE1EB7225C7D0 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80000E1CA4369B2E82035A1825982D /* ConstraintRelation.swift */; };
 		2B1AB2D92B824F9200C0241A /* HandyKitLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1AB2D82B824F9200C0241A /* HandyKitLabel.swift */; };
+		2B39EC922BB00477003769EE /* CALayer+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B39EC912BB00477003769EE /* CALayer+Ex.swift */; };
 		30C0BFBDAE8F38DACEE7D7A07C2560C9 /* Pods-HandyKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B126BE4E8EB8928A3024CA054E357B /* Pods-HandyKit_Example-dummy.m */; };
 		3E5D7C1C560D66E9325A15B15BCB936D /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D0C7209EFA17EFECCB8074F0E9071 /* ConstraintAttributes.swift */; };
 		42EEE424EE2BF81C2CA0632E0B6CDD68 /* Pods-HandyKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F78D3072071E903A779955D7F8DEE180 /* Pods-HandyKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -102,6 +103,7 @@
 		202897EC487F399C7FAC9963E4ACB21B /* Pods-HandyKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HandyKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		29693EC049D6AC1AE94A7B743D01A9AB /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
 		2B1AB2D82B824F9200C0241A /* HandyKitLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyKitLabel.swift; sourceTree = "<group>"; };
+		2B39EC912BB00477003769EE /* CALayer+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Ex.swift"; sourceTree = "<group>"; };
 		37F1A25F3C9883F6A0A4428D8AFC44B2 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		3B569D02FFB2C8143A71D4511C970AC4 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		4230A725EDA6C25944C70BFF90CCC3F4 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
@@ -297,6 +299,7 @@
 			isa = PBXGroup;
 			children = (
 				8F5D08AD728143ADC237E8E017D6EA51 /* UIViewController+Ex.swift */,
+				2B39EC912BB00477003769EE /* CALayer+Ex.swift */,
 			);
 			name = Extensions;
 			path = HandyKit/Extensions;
@@ -640,6 +643,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B39EC922BB00477003769EE /* CALayer+Ex.swift in Sources */,
 				EA399FF71B950A05B3EED1366CD3475A /* HandyKit-dummy.m in Sources */,
 				2B1AB2D92B824F9200C0241A /* HandyKitLabel.swift in Sources */,
 				05A5B477E1B57524349D929508B7779E /* UIViewController+Ex.swift in Sources */,
